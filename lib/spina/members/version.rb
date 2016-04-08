@@ -1,5 +1,5 @@
 module Spina
-  module Articles
+  module Members
     VERSION = "0.0.1"
   end
 end

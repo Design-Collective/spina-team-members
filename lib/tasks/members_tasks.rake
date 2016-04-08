@@ -1,4 +1,4 @@
 # desc "Explaining what the task does"
-# task :articles do
+# task :members do
 #   # Task goes here
 # end

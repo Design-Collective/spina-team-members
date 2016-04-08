@@ -4,24 +4,24 @@
 
 # Getting Started
 
-This is a News/Blog plugin for Spina CMS based on articles.
+This is a Spina CMS plugin for Team Members, this project is meant to be cut into a gem and included in your parent Spina project.
 
 ```
-gem 'spina-articles'
+gem 'spina-members'
 ```
 
 Run the migration installer to get started.
 
 ```
-rails g spina_articles:install
+rails g spina_members:install
 ```
 
-This should copy the migration file required to create the Spina::Article model.
+This should copy the migration file required to create the Spina::Member model.
 
-In your Spina project, make sure your selected theme has 'articles' added to plugins
+In your Spina project, make sure your selected theme has 'members' added to plugins
 
 ```
-self.plugins = ['articles']
+self.plugins = ['members']
 ```
 
 Restart your server and head over to '/admin/pages', you should see your plugin located below the Media Library.

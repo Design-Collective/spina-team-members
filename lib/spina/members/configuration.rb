@@ -1,13 +1,13 @@
 module Spina
-  module Articles
+  module Members
     include ActiveSupport::Configurable
 
     config_accessor :title, :controller, :description, :spina_icon, :plugin_type
 
-    self.title = 'Articles'
-    self.controller = 'articles'
-    self.description = 'A news or blog feed for your website'
-    self.spina_icon = 'pencil-outline'
+    self.title = 'Members'
+    self.controller = 'members'
+    self.description = 'Manage your team'
+    self.spina_icon = 'users-outline'
 
     self.plugin_type = 'website_resource'
   end

@@ -1,5 +1,5 @@
 module Spina
-  module Articles
+  module Members
     class Engine < ::Rails::Engine
       isolate_namespace Spina
 
@@ -12,8 +12,8 @@ module Spina
 
       initializer "register plugin" do
         plugin = ::Spina::Plugin.new
-        plugin.name = "Articles"
-        plugin.config = Articles.config
+        plugin.name = "Members"
+        plugin.config = Members.config
         ::Spina.register_plugin(plugin)
       end
     end

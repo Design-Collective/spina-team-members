@@ -1,7 +1,7 @@
 require 'test_helper'
 
-class ArticlesTest < ActiveSupport::TestCase
+class MembersTest < ActiveSupport::TestCase
   test "truth" do
-    assert_kind_of Module, Articles
+    assert_kind_of Module, Members
   end
 end
